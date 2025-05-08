@@ -30,6 +30,13 @@ If you want to do any of the three please email me at lpowyt3@gmail.com
 You can see the github here: [extra-input github](https://github.com/lpow100/extra-input)
 
 ## Changelog:
+ * 1.1.0:
+    - Added range based functions
+    - Added date and time functions
+    - Made sure to update the changelog
+    - Pretty sure I used correct grammar
+ * 1.0.6:
+    - Updated the readme
  * 1.0.5:
     - Fixed a bug where PyPI didn't show this whole readme
  * 1.0.4:

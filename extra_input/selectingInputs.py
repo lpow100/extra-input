@@ -1,17 +1,17 @@
 import roman
 
-def select(options:list[str], firstLetterSelections = True) -> str:
+def select(options:list[str], squareBrackets = True) -> str:
     """Select from a list of options.
     When using first letter selctions please specify your own square brackets"""
     #check for duplicates
     if list(set(options)) != options:
         print("Invalid options, no duplicates")
     while True:
-        print("Please choose a option:")
+        print("Please choose an option:")
         for option in options:
             print(option)
         response = input(">>> ").lower()
-        if firstLetterSelections:
+        if squareBrackets:
             for option in options:
                 curr = option[option.index('[')+1]
                 for i in range(option.index('[')+2,len(option)):
@@ -28,7 +28,7 @@ def select(options:list[str], firstLetterSelections = True) -> str:
 
 def numbered_select(options:list[str], use_parens = False, roman_numerals = False) -> str:
     while True:
-        print("Please choose a option:")
+        print("Please choose an option:")
         for index, option in enumerate(options):
             if roman_numerals:
                 if use_parens:
