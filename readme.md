@@ -22,9 +22,21 @@ print(f"you selected {option}")
    Gets input and only allows floats
  * `custom_input(text:str, allowed:str, tellAllowed = True) -> str`
    Gets input only allowing the charecters in allowed
+ * `get_int_range(prompt: str, min_val, max_val, tell_range) -> int`
+   Gets an int in a certain range
+ * `get_float_range(prompt: str, min_val, max_val, tell_range) -> float`
+   Gets a float in a certain range
+ * `get_time(prompt: str, military_time = False) -> datetime.time`
+   Gets a datetime time
+ * `get_date(prompt: str, number_month = False, number_day = True) -> datetime.date`
+   Gets a datetime date
+ * `get_date_and_time(prompt: str, number_month = False, number_day = True, military_time = False) -> datetime.datetime`
+   Gets a datetime datetime
+ * `get_bool(prompt) -> bool`
+   Gets a boolean value
 
 ## Ideas, Errors, or Helping
-If you want to do any of the three please email me at lpowyt3@gmail.com
+If you want to do any of the three please use the github linked below
 
 ## Github
 You can see the github here: [extra-input github](https://github.com/lpow100/extra-input)
