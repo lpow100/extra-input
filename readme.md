@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/github?link=https%3A%2F%2Fgithub.com%2Flpow100%2Fextra-input)
+
 # Extra Input
 A simple helper lib with a few extra ways to get input from the user
 
@@ -36,10 +38,7 @@ print(f"you selected {option}")
    Gets a boolean value
 
 ## Ideas, Errors, or Helping
-If you want to do any of the three please use the github linked below
-
-## Github
-You can see the github here: [extra-input github](https://github.com/lpow100/extra-input)
+If you want to do any of the three please use the github linked at the top
 
 ## Changelog:
  * 1.1.0:
